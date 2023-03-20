@@ -1,0 +1,39 @@
+{
+    "name": "nearata/flarum-ext-prevent-double-posting",
+    "description": "Prevent double posting",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "Unlicense",
+    "require": {
+        "flarum/core": "^1.7.0"
+    },
+    "authors": [
+        {
+            "name": "Nearata",
+            "email": "nearata@protonmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nearata\\PreventDoublePosting\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Prevent Double Posting",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-newspaper",
+                "color": "#fff",
+                "backgroundColor": "#874000"
+            }
+        }
+    },
+    "support": {
+        "source": "https://github.com/Nearata/flarum-ext-prevent-double-posting",
+        "issues": "https://github.com/Nearata/flarum-ext-prevent-double-posting/issues"
+    }
+}
