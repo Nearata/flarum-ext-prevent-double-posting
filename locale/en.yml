@@ -1,7 +1,14 @@
 nearata-prevent-double-posting:
-  # For more details on the format
-  # Checkout https://docs.flarum.org/extend/i18n/#appendix-a-standard-key-format
   admin:
-    my_cool_key: My Cool Key
-
+    settings:
+      except_thread_author:
+        label: Except Thread Author
+        help: Should the <strong>Thread Author</strong> be immune to this restriction?
+      sequential_replies_threshold:
+        label: Sequential Replies Threshold
+        help: Max consecutive replies allowed
+    permissions:
+      bypass_double_posting_label: Bypass Double Posting
   forum:
+    exception:
+      too_many_replies: No more than {count} consecutive replies are allowed. Please edit your previous reply instead, or wait for someone to reply to you.
