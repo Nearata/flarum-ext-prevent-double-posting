@@ -2,6 +2,8 @@
 
 > Prevent double posting
 
+_Based on a Discourse feature_
+
 ## Install
 
 ```sh
