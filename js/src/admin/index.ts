@@ -29,7 +29,7 @@ app.initializers.add("nearata-prevent-double-posting", () => {
         label: app.translator.trans(
           "nearata-prevent-double-posting.admin.permissions.bypass_double_posting_label"
         ),
-        permission: "nearata-prevent-double-posting.bypassDoublePosting",
+        permission: "discussion.bypassDoublePosting",
       },
       "reply"
     );
